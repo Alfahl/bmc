@@ -1,0 +1,101 @@
+.navbar-brand{
+
+}
+
+.logo-image{
+   width: 150px;
+    
+}
+.nav-link{
+    font-size: 1.2rem !important;
+    font-weight: bold ;
+    padding-right: 16px !important;
+}
+
+.text-body-emphasis{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Lexend', sans-serif;
+text-align: center;
+background: linear-gradient(to left, rgba(204, 201, 28, 0.658), rgb(129, 100, 21), #aa7e05);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-shadow: 2px 2px 10px rgb(223, 157, 13);
+}
+.img-fluid{
+   height: 600px !important;
+   
+}
+.hero{
+  margin-top: 30px;
+  position: relative; /* Ensure a positioning context for the pseudo-element */
+  overflow: hidden;
+}
+.hero::after{
+    content: "";
+  background-image: url(/images/back9.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(3px); /* Adjust the blur radius as needed */
+  -webkit-backdrop-filter: blur(5px); /* For Safari */
+  backdrop-filter: blur(5px);
+}
+.btn-outline-dark{
+    background-color: black;
+    color: #f0b513;
+}
+.hero-p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.department{
+    background-color: #fff;
+}
+.department-titel{
+    text-align: center;
+    margin: 50px;
+    padding-top: 50px !important;
+    font-size: 3rem;
+}
+.fetures{
+    background-color: #fff;
+    text-align: center;
+}
+.bmc{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    background: linear-gradient(to left, rgba(204, 201, 28, 0.658), rgb(129, 100, 21), #aa7e05);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 10px rgb(223, 157, 13);
+
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.values>li::first-letter{
+    color: blue;
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+.text-body-secondary{
+    color: white !important;
+}
